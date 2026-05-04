@@ -437,7 +437,3 @@ make clean         # Remove caches
 - Brasil (2018). *Lei nº 13.709/2018 (LGPD)*.
 
 ---
-
-## Licença
-
-MIT — ver [LICENSE](LICENSE).
