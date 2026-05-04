@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Testes / coverage
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.local
+
+# Dados (DVC trata isso)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/golden_set/
+
+# MLflow / Langfuse local
+mlruns/
+mlartifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code (configurações locais do desenvolvedor)
+.claude/
+
+# Artefatos de CI/testes gerados localmente
+test-results.xml
+
+# Logs gerados em runtime
+*.log

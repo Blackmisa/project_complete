@@ -1,0 +1,177 @@
+[
+  {
+    "query": "Qual o prazo para devolver um produto?",
+    "expected_answer": "7 dias corridos após o recebimento, conforme o Art. 49 do CDC. Para produtos com defeito, 30 dias (não duráveis) ou 90 dias (duráveis).",
+    "expected_doc_ids": [
+      "KB-001"
+    ]
+  },
+  {
+    "query": "Como faço para rastrear meu pedido?",
+    "expected_answer": "Acesse 'Meus Pedidos' no site e use o código de rastreio. Atualizações também são enviadas automaticamente por email.",
+    "expected_doc_ids": [
+      "KB-002"
+    ]
+  },
+  {
+    "query": "Vocês aceitam PIX?",
+    "expected_answer": "Sim, aceitamos PIX com 5% de desconto à vista.",
+    "expected_doc_ids": [
+      "KB-003"
+    ]
+  },
+  {
+    "query": "Posso parcelar minha compra?",
+    "expected_answer": "Sim, em até 12x sem juros para compras acima de R$ 200, no cartão de crédito.",
+    "expected_doc_ids": [
+      "KB-003"
+    ]
+  },
+  {
+    "query": "Como cancelo um pedido?",
+    "expected_answer": "Em 'Meus Pedidos', selecione o pedido e clique em 'Cancelar'. Cancelamento gratuito só enquanto o pedido estiver em separação.",
+    "expected_doc_ids": [
+      "KB-004"
+    ]
+  },
+  {
+    "query": "Quanto tempo demora pra entregar em Manaus?",
+    "expected_answer": "Para a região Norte, o prazo é de 7 a 15 dias úteis.",
+    "expected_doc_ids": [
+      "KB-005"
+    ]
+  },
+  {
+    "query": "Posso trocar por outro tamanho?",
+    "expected_answer": "Sim, em até 30 dias do recebimento, com produto sem uso e na embalagem original. A primeira troca é gratuita.",
+    "expected_doc_ids": [
+      "KB-006"
+    ]
+  },
+  {
+    "query": "Qual a garantia dos produtos?",
+    "expected_answer": "Garantia legal de 90 dias para todos os produtos, mais a garantia adicional do fabricante (geralmente 12 meses para eletrônicos).",
+    "expected_doc_ids": [
+      "KB-007"
+    ]
+  },
+  {
+    "query": "Quanto tempo leva o reembolso?",
+    "expected_answer": "PIX: até 2 dias úteis. Cartão de crédito: até 2 faturas. Boleto: até 10 dias úteis após informar dados bancários.",
+    "expected_doc_ids": [
+      "KB-008"
+    ]
+  },
+  {
+    "query": "A partir de quanto tem frete grátis?",
+    "expected_answer": "R$ 199 para Sul, Sudeste, Centro-Oeste e capitais do Nordeste. R$ 299 para a região Norte.",
+    "expected_doc_ids": [
+      "KB-009"
+    ]
+  },
+  {
+    "query": "Recebi um produto com defeito, o que fazer?",
+    "expected_answer": "Abra um chamado em até 7 dias com fotos. Você pode escolher entre troca, produto equivalente ou reembolso integral. O frete reverso é grátis.",
+    "expected_doc_ids": [
+      "KB-010"
+    ]
+  },
+  {
+    "query": "Meu cartão foi recusado, e agora?",
+    "expected_answer": "Verifique os dados, tente novamente ou contate seu banco. Você também pode usar PIX como alternativa.",
+    "expected_doc_ids": [
+      "KB-011"
+    ]
+  },
+  {
+    "query": "Esqueci minha senha, como recupero?",
+    "expected_answer": "Na tela de login, clique em 'Esqueci minha senha' e informe o email. Você receberá um link em até 5 minutos (verifique também o spam).",
+    "expected_doc_ids": [
+      "KB-013"
+    ]
+  },
+  {
+    "query": "Qual o horário de atendimento?",
+    "expected_answer": "Chat e WhatsApp: seg-sáb 8h-22h. Telefone: seg-sex 9h-18h. Email: 24h com resposta em até 24 horas úteis.",
+    "expected_doc_ids": [
+      "KB-014"
+    ]
+  },
+  {
+    "query": "Como pego a segunda via da nota fiscal?",
+    "expected_answer": "Em 'Meus Pedidos' > 'Detalhes' > 'Baixar NF-e'.",
+    "expected_doc_ids": [
+      "KB-015"
+    ]
+  },
+  {
+    "query": "Posso mudar o endereço de entrega depois de comprar?",
+    "expected_answer": "Sim, enquanto o pedido estiver em 'aguardando pagamento' ou 'em separação'. Após despachado, não é possível alterar.",
+    "expected_doc_ids": [
+      "KB-017"
+    ]
+  },
+  {
+    "query": "Como faço para usar um cupom de desconto?",
+    "expected_answer": "No checkout, no campo 'Cupom de desconto', insira o código e clique em 'Aplicar'. Cupons não são acumulativos.",
+    "expected_doc_ids": [
+      "KB-018"
+    ]
+  },
+  {
+    "query": "Recebi um produto diferente do que pedi.",
+    "expected_answer": "Abra um chamado em até 48 horas com fotos da etiqueta e do produto. Enviamos o correto sem custo e coletamos o errado no mesmo dia.",
+    "expected_doc_ids": [
+      "KB-019"
+    ]
+  },
+  {
+    "query": "Como solicito acesso aos meus dados pessoais?",
+    "expected_answer": "Envie email para dpo@amazoniashop.com.br com seu CPF e o tipo de solicitação. Atendemos em até 15 dias úteis (LGPD).",
+    "expected_doc_ids": [
+      "KB-020"
+    ]
+  },
+  {
+    "query": "Vocês fazem venda para empresas?",
+    "expected_answer": "Sim, para compras acima de 50 unidades do mesmo item. Envie email para corporativo@amazoniashop.com.br com CNPJ, produto e quantidade.",
+    "expected_doc_ids": [
+      "KB-021"
+    ]
+  },
+  {
+    "query": "Como funciona o programa de fidelidade?",
+    "expected_answer": "Cada R$ 1 vale 1 ponto. A cada 1.000 pontos você ganha R$ 50 em crédito. Pontos expiram em 12 meses.",
+    "expected_doc_ids": [
+      "KB-023"
+    ]
+  },
+  {
+    "query": "Posso comprar do exterior?",
+    "expected_answer": "Não vendemos para fora do Brasil.",
+    "expected_doc_ids": [
+      "KB-025"
+    ]
+  },
+  {
+    "query": "Vocês têm loja física?",
+    "expected_answer": "Não, somos 100% online. Temos centros de distribuição em SP, AM e PE, mas não é possível retirar pedidos pessoalmente.",
+    "expected_doc_ids": [
+      "KB-027"
+    ]
+  },
+  {
+    "query": "Não reconheço uma cobrança no meu cartão, o que fazer?",
+    "expected_answer": "Ligue imediatamente para 0800-AMAZONIA. Bloqueamos a conta enquanto investigamos. Contate também seu banco para iniciar o chargeback.",
+    "expected_doc_ids": [
+      "KB-028"
+    ]
+  },
+  {
+    "query": "Quanto custa para embalar como presente?",
+    "expected_answer": "R$ 9,90 por item, com opção de cartão personalizado. Selecione no checkout.",
+    "expected_doc_ids": [
+      "KB-030"
+    ]
+  }
+]

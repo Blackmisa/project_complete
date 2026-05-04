@@ -1,0 +1,44 @@
+# Configuração central — hiperparâmetros, paths e thresholds.
+# Toda mudança de comportamento do baseline passa por aqui (não hardcoded em código).
+
+data:
+  raw_tickets: data/raw/tickets.csv
+  knowledge_base: data/raw/knowledge_base.json
+  golden_set: data/golden_set/golden.json
+  random_state: 42
+
+baseline:
+  # Classifica a categoria do ticket a partir do texto da mensagem
+  task: classification
+  target: category
+  text_column: message
+  model: logistic_regression
+  vectorizer:
+    type: tfidf
+    max_features: 5000
+    ngram_range: [1, 2]
+    min_df: 2
+  hyperparams:
+    C: 1.0
+    max_iter: 1000
+    class_weight: balanced
+  test_size: 0.2
+
+rag:
+  embedding_model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  collection_name: kb_atendimento
+  top_k: 4
+  score_threshold: 0.3
+
+agent:
+  max_iterations: 6
+  temperature: 0.0
+  system_prompt_path: configs/system_prompt.txt
+
+monitoring:
+  drift:
+    psi_warning: 0.1
+    psi_alarm: 0.2
+  api:
+    latency_p95_ms: 3000
+    error_rate_max: 0.05
