@@ -113,10 +113,9 @@ Avaliação no golden set completo (25 amostras), executada em 03/05/2026:
 ### TL;DR — 6 comandos
 
 ```bash
-git clone https://github.com/Blackmisa/project_complete.git && cd project_complete
 python3.11 -m venv .venv && source .venv/bin/activate    # Linux/macOS
 make install
-cp .env.example .env  # edite e cole sua ANTHROPIC_API_KEY
+cp .env.example .env  # precisa de ANTHROPIC_API_KEY
 make infra-up
 make data && make train && make serve
 ```
